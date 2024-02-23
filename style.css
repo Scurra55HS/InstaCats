@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecario {
+    background-color: #EB6440;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    padding: 0.1rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand img{
+    left: 1000px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 50px;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+section {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #EB6440;
+}
+
+    .row {
+    width: 100%;
+}
+
+.img {
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1310px){
+    .img {
+        max-width: 100%;
+    }
+}
